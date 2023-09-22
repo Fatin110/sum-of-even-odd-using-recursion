@@ -1,4 +1,5 @@
 <?php
+//sum of even and odd number in a given range using recursion in php
 function evenOdd($start, $end) {
 	static $evenSum = 0;
 	static $oddSum = 0;
